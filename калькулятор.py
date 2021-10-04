@@ -28,4 +28,4 @@ try: #################
     except:
         print('Ошибка')
 except:
-    print('Иди нахуй')
+    print('Ошибка')
