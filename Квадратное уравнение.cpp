@@ -9,12 +9,11 @@ int main()
     cin>> a>> b>> c;
     D = b * b - 4 * a * c;
     if (D >= 0) {
-        if (D == 0) {
-            x1 = (-b + sqrt(D)) / 2 * a;
+        x1 = (-b + sqrt(D)) / 2 * a;
+        if (D == 0) {    
             cout << x1;
         }
         else {
-        x1 = (-b + sqrt(D)) / 2 * a;
         x2 = (-b - sqrt(D)) / 2 * a;
         cout<<x1<<x2;
     }
