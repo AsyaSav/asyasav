@@ -19,5 +19,4 @@ int main()
         cout<<x1<<x2;
     }
     }
-    else cout << "решений нет";
 }
