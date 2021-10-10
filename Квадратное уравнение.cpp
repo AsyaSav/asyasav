@@ -9,9 +9,9 @@ int main()
     int a, b, c;
     cin>> a>> b>> c;
     D = b * b - 4 * a * c;
-    if (D >= 0) {
+    if ((b * b - 4 * a * c) >= 0) {
         x1 = (-b + sqrt(D)) /( 2 * a);
-        if (D == 0) {    
+        if ((b * b - 4 * a * c)== 0) {    
             cout << x1;
         }
         else {
