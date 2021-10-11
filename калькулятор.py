@@ -1,31 +1,21 @@
-def kalculator(a, b, c):
-    '''Функция делает своё дело'''
+def kalculator(a, b, symbol):
     try:
-        if c == '+':
+        if symbol == '+':
             print(a+b)
-        elif c == '/':
+        elif symbol == '/':
             print(a/b)
-        elif c == '-':
+        elif symbol == '-':
             print(a-b)
-        elif c == '*':
+        elif symbol == '*':
             print(a*b)
         else:
              print('Ошибка')
     except:
          print('Ошибка')
-try: #################
-    try: #################
-        try: #################
-            try: ##################
-                one = int(input('Введите число'))
-                two = int(input('А теперь ещё одно'))
-                action = input('Выберете действие')
-                kalculator(one, two, action)
-            except:
-                print('Ошибка')
-        except:
-            print('Ошибка')
-    except:
-        print('Ошибка')
+try: 
+    one = int(input('Введите число'))
+    two = int(input('А теперь ещё одно'))
+    action = input('Выберете действие')
+    kalculator(one, two, action)
 except:
     print('Ошибка')
