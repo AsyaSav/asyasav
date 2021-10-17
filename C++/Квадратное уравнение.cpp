@@ -9,6 +9,7 @@ int main()
     cin >> a >> b >> c;
     if ((a == 0) and (b != 0) and (c != 0)) {
         x1 = -c / b;
+
     }
     if ((b == 0) and (a != 0) and (c != 0)) {
         x1 = sqrt(-c / a);
@@ -34,12 +35,12 @@ int main()
         if (D >= 0) {
             x1 = (-b + sqrt(D)) / (2 * a);
             if (D == 0) {
-                cout << x1;
             }
             else {
                 x2 = ((-b - sqrt(D))) / (2 * a);
-                cout << x1 << x2;
+               
             }
         }
-    }
+    } 
+    cout << x1 << x2;
 }
